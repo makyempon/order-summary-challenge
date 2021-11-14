@@ -26,7 +26,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://github.com/makyempon/order-summary-component-main]
+- Solution URL: [https://github.com/makyempon/order-summary-challenge]
 
 ### Built with
 
@@ -34,14 +34,12 @@ Users should be able to:
 - CSS custom properties
 - Flexbox
 - CSS Grid
-- Mobile-first workflow
 - [Google Fonts](https://fonts.google.com/)
 
 ### Continued development
 
 I had a bit of a challenge with responsiveness. At 900px by --- to 1450px by ---
 imma improve on the above screen size range
-(smile imoji face) (smile imoji face) (smile imoji face) (smile imoji face)
 
 ## Author
 
