@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap" rel="stylesheet">  
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Order summary card</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    body{
+      
+      background-color: hsl(225, 100%, 94%);
+      font-family: 'Red Hat Display', sans-serif;
+      font-weight: 500;
+    }
+    main{
+      background-color:white;
+      text-align: center;
+      border-radius: 20px;
+    }
+    .mg{
+      width: 	100%;
+      border-top-left-radius: 20px;
+      border-top-right-radius: 20px;
+
+    }
+    h2{
+      color: hsl(233, 47%, 23%);
+      font-weight: 900;
+    }
+
+    p{
+      color: hsl(224, 23%, 55%);
+      
+    }
+
+    .stra{
+      background-color:  hsl(225, 100%, 98%);
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      padding: 10px;
+      margin: 0 25px;
+      border-radius: 10px;
+
+    }
+
+    .hana{
+      font-weight: 700;
+      display: flex;
+      flex-direction: column;
+
+    }
+
+    .gai{
+     color:  hsl(233, 47%, 23%);
+    }
+
+    .bb{
+      display: flex;
+      flex-direction: column;
+      padding: 10px;
+      margin: 15px;
+
+
+    }
+
+    .money{
+      color: hsl(224, 23%, 55%);
+    }
+
+    .button1{
+      background-color: hsl(245, 75%, 52%);
+      padding: 20px;
+      border: none;
+      border-radius: 5px;
+      color: white;
+      border-radius: 10px;
+      font-weight: bold;
+
+    }
+
+    .button1:hover{
+      background-color: hsl(224, 23%, 55%);
+    }
+
+    .button2{
+      background-color: white;
+      padding: 20px;
+      border: none;
+      color: hsl(224, 23%, 55%);
+      font-weight: bold;
+
+    }
+
+    .button2:hover{
+      background-color: white;
+      color: black;
+    }
+
+    @media only screen and (min-width: 900px) {
+      body{
+      background-image: url("images/pattern-background-desktop.svg");
+      background-repeat: no-repeat;
+      
+      }     
+      
+      main{
+        margin: 100px 600px;
+      }
+
+    }
+
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+<main>
+  <img class="mg" src="images/illustration-hero.svg" alt="illustration hero">
+  <h2> Order Summary </h2>
+
+  <p>
+  You can now listen to millions of <br> songs, audiobooks, and podcasts on <br> any 
+  device anywhere you like! </p>
+
+<div class=" stra">
+  <img src="images/icon-music.svg" alt="music icon">
+  <div class="hana">
+  <span class="gai"> Annual Plan </span>
+  <span class="money"> $59.99/year </span>
+ </div>
+  <a href="#"> Change </a>
+</div>
+
+<div class="bb">
+  <button class="button1"> Proceed to payment</button>
+  <button class="button2"> Cancel Order</button>
+</div>
+
+</main>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="github.com/makyempon">Mahonne Akyempon</a>.
+  </div>
+</body>
+</html>
